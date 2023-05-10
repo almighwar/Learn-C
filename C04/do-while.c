@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    char x= 'q';
+int main() {
+    char x = 'q';
 
     do {
         printf("Enter (q) to exit: ");
-        scanf("%c", &x);
+        scanf(" %c", &x);
 
-        if(x=='q'){
-            printf("succed");
+        if (x == 'q') {
+            printf("Success\n");
             break;
         }
         x++;
 
-    } while(x='q');
+    } while (x != 'q');
 
     return 0;
 }
