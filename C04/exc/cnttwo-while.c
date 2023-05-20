@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-    int x = 1;
+    int x = 0;
 
     while(1) {
-
-        if(x > 20) {
-            break;
-        }
         printf("%d ", x);
-        ++x;
+        x++;
+        x++;
+
+        if(x > 100)
+            break;
     }
 
     return 0;
