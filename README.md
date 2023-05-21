@@ -1,4 +1,4 @@
-# The concept of learning something, learning the basics, extremely
+### The concept of learning something, learning the basics, extremely
 
 ## Manga "REAL" 🥬
 
