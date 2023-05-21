@@ -3,6 +3,7 @@
 - Array 
 - Array 2D
 - Array 3D
+- Array Text
 
 ## Exercise :
 
