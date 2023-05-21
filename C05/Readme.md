@@ -1,8 +1,8 @@
 # Arrays
 
-- Arrays 
-- Arrays 2D
-
+- Array 
+- Array 2D
+- Array 3D
 
 ## Exercise :
 
