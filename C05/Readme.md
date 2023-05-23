@@ -4,8 +4,9 @@
 - Array 2D
 - Array 3D
 - Array Text
-- String
-+ Strcpy and Strncpy 
+- String:
+  - Strcpy and Strncpy 
+  - Strcat and Strncat
 
 ## Exercise :
 
