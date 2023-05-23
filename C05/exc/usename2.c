@@ -5,7 +5,7 @@ int main(void) {
 
 
 	puts("Username:");
-    gets(usrname);
+    	gets(usrname);
 
 	puts(usrname);
 
