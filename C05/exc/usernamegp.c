@@ -1,17 +1,20 @@
 #include <stdio.h>
+#include <string.h>
 
+#define USERSIZE 20
 int main(void) {
-    char username[20];
-    int x = 0;
+    char username[USERSIZE];
+    int x;
 
     printf("Enter your name: ");
-    fgets(username, 20, stdin);
+    
+	fgets(username, USERSIZE , stdin);
 
-    for(;username[x] != '\0'; x++){
+    for(;username[x] != '\n'; ++x){
     }
 
     puts(username);
-    puts(x);
+    printf("The number of caracter: %d", x);
 
     return 0;
 }
