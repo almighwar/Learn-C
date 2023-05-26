@@ -14,7 +14,7 @@ int main(void) {
     }
 
     puts(username);
-    printf("The number of caracter: %d", x);
+    printf("The number of characters: %d", x);
 
     return 0;
 }
