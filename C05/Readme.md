@@ -4,8 +4,6 @@
 - Dimensional Array ([Example](#example-dimensional-array))
   - 2D
   - 3D
-  
-![Dimensional Array](/assets/two_dimensional_arrays.jpg)
 
 - Array Text
 - String:
