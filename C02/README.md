@@ -1,5 +1,7 @@
 # Variables and Constants
 
+- Variable and Constant 
+- define (#define to define constants)
 - int (For natural number 2 byte)
 - float (Real numbers 4 byte) 
 - [Difference bt float and double](https://www.quora.com/What-is-the-difference-between-float-and-double-in-C-language-How-is-it-stored-in-the-memory)
@@ -9,7 +11,16 @@
 
 ## Some Exp
 
-Variable_Type Variable_Name = Variable_Value
+### Variable
+
+```c
+data_type Variable_Name = variable_value
+```
+
+### Constant
+```c
+const data_Type Variable_Name = variable_Value
+```
 
 ## Exercice: 
 
