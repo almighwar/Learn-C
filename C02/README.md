@@ -4,7 +4,7 @@
 - define (#define to define constants)
 - int (For natural number 2 byte)
 - float (Real numbers 4 byte) 
-- [Difference bt float and double](https://www.quora.com/What-is-the-difference-between-float-and-double-in-C-language-How-is-it-stored-in-the-memory)
+- <a href="https://www.quora.com/What-is-the-difference-between-float-and-double-in-C-language-How-is-it-stored-in-the-memory" target="_blank">Difference bt float and double</a>
 - double (Real numbers 8 byte)
 - short (2 byte) and long (8 byte) `real numbers`
 - char for littre 1 byte, also for a word or phrase
@@ -24,4 +24,4 @@ const data_Type Variable_Name = variable_Value
 
 ## Exercice: 
 
-- Types of numbers from [Here](https://www.learn-c.org/en/Variables_and_Types)
+- Types of numbers from <a href="https://www.learn-c.org/en/Variables_and_Types" target="_blank">Here</a>
