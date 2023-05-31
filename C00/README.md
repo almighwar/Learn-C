@@ -3,5 +3,9 @@ In this step you know what you have to do, you can use a simple editor like vim,
 install the compiler "manualy" such as `gcc or Clang`[^1] , borland turbo C/C++, tiny C, Portable C (CPP).
 ofc if you wanna install an editor with compiler there's a IDE like Visual C++ or DEV-C++ or Turbo C or Codeblocks with compiler and it's available on linux and windows or editor support the language such as Visual Studio.
 
+For more information: 
+[C List of compilers](https://en.wikipedia.org/wiki/List_of_compilers#C_compilers) ---
+[C language compilers](https://en.wikipedia.org/wiki/Category:C_(programming_language)_compilers) ---
+[C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
 
 [^1]: i know them but the rest i never use them
