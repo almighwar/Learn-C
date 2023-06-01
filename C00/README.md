@@ -8,4 +8,6 @@ For more information:
 [C language compilers](https://en.wikipedia.org/wiki/Category:C_(programming_language)_compilers) ---
 [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
 
+I think the most important thing C language is "RAM"
+
 [^1]: i know them but the rest i never use them
