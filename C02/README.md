@@ -21,6 +21,8 @@
 - A bit is too small to be much use
 - Group 8 bits together to make 1 byte 
 
+For more information: [Bits and Bytes](https://web.stanford.edu/class/cs101/bits-bytes.html)
+
 **Possible values for each type of variable:**
 
 |Type|Size|Value (Chances, Possibility)|
@@ -34,7 +36,6 @@
 |signed long & long|1 byte|-2.147.483.647 to 2.147.483.648|
 |unsigned long & long|1 byte|0 to 4.294.967.295|
 
-For more information: [Bits and Bytes](https://web.stanford.edu/class/cs101/bits-bytes.html)
 ### Variable
 
 ```c
