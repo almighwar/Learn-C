@@ -11,6 +11,17 @@
 
 ## Some Exp
 
+|Type|Size|Value (Chances, Possibility)|
+|-|-|-|
+|signed char & char|1 byte|-127 to 127|
+|unsigned char & char|1 byte|0 to 255|
+|signed int & int|1 byte|-32.767 to 32.768|
+|unsigned int & int|1 byte|0 to 65.535|
+|signed shor & short|1 byte|-32.767 to 32.768|
+|unsigned short & short|1 byte|0 to 65.535|
+|signed long & long|1 byte|-2.147.483.647 to 2.147.483.648|
+|unsigned long & long|1 byte|0 to 4.294.967.295|
+
 ### Variable
 
 ```c
