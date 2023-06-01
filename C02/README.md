@@ -11,6 +11,18 @@
 
 ## Some Exp
 
+**Bit:**
+- a "bit" is atomic: the smallest unit of storage
+- A bit stores just a 0 or 1
+- "In the computer it's all 0's and 1's" ... bits
+- Anything with two separate states can store 1 bit
+- In a chip: electric charge = 0/1
+- In a hard drive: spots of North/South magnetism = 0/1
+- A bit is too small to be much use
+- Group 8 bits together to make 1 byte 
+- 
+**Possible values for each type of variable:**
+
 |Type|Size|Value (Chances, Possibility)|
 |-|-|-|
 |signed char & char|1 byte|-127 to 127|
@@ -22,6 +34,7 @@
 |signed long & long|1 byte|-2.147.483.647 to 2.147.483.648|
 |unsigned long & long|1 byte|0 to 4.294.967.295|
 
+For more information: [Bits and Bytes](https://web.stanford.edu/class/cs101/bits-bytes.html)
 ### Variable
 
 ```c
@@ -29,8 +42,9 @@ data_type Variable_Name = variable_value
 ```
 
 ### Constant
+
 ```c
-const data_Type Variable_Name = variable_Value
+const data_Type Variable_Name = variable_value
 ```
 
 ## Exercice: 
