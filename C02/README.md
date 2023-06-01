@@ -20,7 +20,7 @@
 - In a hard drive: spots of North/South magnetism = 0/1
 - A bit is too small to be much use
 - Group 8 bits together to make 1 byte 
-- 
+
 **Possible values for each type of variable:**
 
 |Type|Size|Value (Chances, Possibility)|
