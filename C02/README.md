@@ -1,4 +1,5 @@
 # Variables and Constants
+
 - Variable and Constant 
 - define (#define to define constants)
 - int (For natural number 2 byte)
