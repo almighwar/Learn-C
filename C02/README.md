@@ -53,3 +53,4 @@ const data_Type Variable_Name = variable_value
 - Types of numbers from [Here](https://www.learn-c.org/en/Variables_and_Types).
 - print two numbers : 3.14, 15.
 - print 'A' insteaf of number 65 without var or const.
+  - And with char.
