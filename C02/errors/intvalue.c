@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
 	int x = 8764935674;
 	
 	printf("x = %d\n",x);
@@ -8,7 +8,7 @@ int main(void) {
 	return 0;
 }
 
-/* Compiler
+/* Compile the file
 
 ┌──►tayaran©local:-[~/…/main/C02/errors]
 └─$ cc -o intval intvalue.c
