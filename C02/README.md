@@ -55,3 +55,4 @@ const data_Type Variable_Name = variable_value
 - print 'A' insteaf of number 65 without var or const.
   - And with char.
 - Write 3 variables, the first with a value of 20, the second with a value of 153, and the third is the result between them in each of the sum, minus, division and multiplication.
+- Write program with 3 #define, where's the third #define is sum between 5 and 15.
