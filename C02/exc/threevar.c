@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 int main(void) {
-	int x,y,equal[5];
-	x = 20;
-	y = 153;
+	int x,y, resu;
+	x = 100;
+	y = 20;
 	
-	equal[4] = {x+y, x-y, x*y}; //That's not the answer
-	float div = x/y;
+	resu = x+y;
+	printf("%d + %d = %d\n", x , y, resu);
 	
-	for(int i=1; x<4; x++){
-		printf("%d + %d = %d\n", x , y, equal[i]);
+	resu = x-y;
+	printf("%d - %d = %d\n", x , y, resu);
+	
+	resu = x*y;
+	printf("%d * %d = %d\n", x , y, resu);
+	
+	resu = x/y;
+	printf("%d / %d = %d\n", x , y, resu);
 		
-		if(i == 3)
-			printf("%d + %d = %f\n", x , y, div);
-		
-	}
 	return 0;
 }
