@@ -50,4 +50,5 @@ const data_Type Variable_Name = variable_value
 
 ## Exercice: 
 
-- Types of numbers from [Here](https://www.learn-c.org/en/Variables_and_Types)
+- Types of numbers from [Here](https://www.learn-c.org/en/Variables_and_Types).
+- print two numbers : 3.14, 15.
