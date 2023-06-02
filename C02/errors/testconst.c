@@ -16,7 +16,7 @@ int main(void) {
 
 /*
  
-┌──►tayaran©local:-[~/…/main/C02]
+┌──►tayaran©local:-[~/…/main/C02/errors]
 └─$ cc -o testcon testconst.c    
 testconst.c: In function ‘main’:
 testconst.c:8:11: error: assignment of read-only variable ‘x’
