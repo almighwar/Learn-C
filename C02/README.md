@@ -1,5 +1,4 @@
 # Variables and Constants
-
 - Variable and Constant 
 - define (#define to define constants)
 - int (For natural number 2 byte)
@@ -11,7 +10,21 @@
 
 ## Some Exp
 
-|Type|Size|Value|
+**Bit:**
+- a "bit" is atomic: the smallest unit of storage
+- A bit stores just a 0 or 1
+- "In the computer it's all 0's and 1's" ... bits
+- Anything with two separate states can store 1 bit
+- In a chip: electric charge = 0/1
+- In a hard drive: spots of North/South magnetism = 0/1
+- A bit is too small to be much use
+- Group 8 bits together to make 1 byte 
+
+For more information: [Bits and Bytes](https://web.stanford.edu/class/cs101/bits-bytes.html)
+
+**Possible values for each type of variable:**
+
+|Type|Size|Value (Chances, Possibility)|
 |-|-|-|
 |signed char & char|1 byte|-127 to 127|
 |unsigned char & char|1 byte|0 to 255|
@@ -23,13 +36,15 @@
 |unsigned long & long|1 byte|0 to 4.294.967.295|
 
 ### Variable
+
 ```c
 data_type Variable_Name = variable_value
 ```
 
 ### Constant
+
 ```c
-const data_Type Variable_Name = variable_Value
+const data_Type Variable_Name = variable_value
 ```
 
 ## Exercice: 
