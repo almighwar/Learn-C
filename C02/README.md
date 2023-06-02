@@ -54,3 +54,4 @@ const data_Type Variable_Name = variable_value
 - print two numbers : 3.14, 15.
 - print 'A' insteaf of number 65 without var or const.
   - And with char.
+- Write 3 variables, the first with a value 20, the seconde with value 153, And third one is the sum between them.
