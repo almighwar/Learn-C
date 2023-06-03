@@ -5,7 +5,8 @@ int main() {
 	int y;
 	
  	puts("Enter a littre and number: ");
- 	scanf(" %c %d", &x, &y);
+ 	scanf(" %c %d", &x, &y); // function scanf responsible for input
+ 							// we have here two variable 
  	
  	printf("The Input : %d, %c", y, x);
  	
