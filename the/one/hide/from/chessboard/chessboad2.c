@@ -1,5 +1,6 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include <stdbool.h>
 
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 640
@@ -50,7 +51,7 @@ int main(int argc, char* argv[]) {
     IMG_Init(IMG_INIT_PNG);
 
     // Create the window
-    SDL_Window* window = SDL_CreateWindow("Chessboard", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_SHOWN);
+    SDL_Window* window = SDL_CreateWindow("Chess Board", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_SHOWN);
 
     // Create the renderer
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
@@ -66,40 +67,40 @@ int main(int argc, char* argv[]) {
     for (int x = 0; x < BOARD_SIZE; x++) {
         for (int y = 0; y < BOARD_SIZE; y++) {
             if (y == 1) {
-                // Create a white pawn
+                // white pawn
                 pieces[x][y].type = PAWN;
-                pieces[x][y].color = WHITE;
-                pieces[x][y].texture = LoadChessPieceTexture(renderer, "white_pawn.png");
+                pieces[x][y].color = BLACK;
+                pieces[x][y].texture = LoadChessPieceTexture(renderer, "texture/black_pawn.png");
             } else if (y == 6) {
                 // Create a black pawn
                 pieces[x][y].type = PAWN;
-                pieces[x][y].color = BLACK;
-                pieces[x][y].texture = LoadChessPieceTexture(renderer, "black_pawn.png");
+                pieces[x][y].color = WHITE;
+                pieces[x][y].texture = LoadChessPieceTexture(renderer, "texture/white_pawn.png");
             } else if ((x == 0 || x == 7) && (y == 0 || y == 7)) {
                 // Create a rook
                 pieces[x][y].type = ROOK;
                 pieces[x][y].color = (y == 0) ? WHITE : BLACK;
-                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "white_rook.png" : "black_rook.png");
+                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "texture/black_rook.png" : "texture/white_rook.png");
             } else if ((x == 1 || x == 6) && (y == 0 || y == 7)) {
                 // Create a knight
                 pieces[x][y].type = KNIGHT;
                 pieces[x][y].color = (y == 0) ? WHITE : BLACK;
-                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "white_knight.png" : "black_knight.png");
+                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "texture/black_knight.png" : "texture/white_knight.png");
             } else if ((x == 2 || x == 5) && (y == 0 || y == 7)) {
                 // Create a bishop
                 pieces[x][y].type = BISHOP;
                 pieces[x][y].color = (y == 0) ? WHITE : BLACK;
-                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "white_bishop.png" : "black_bishop.png");
+                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "texture/black_bishop.png" : "texture/white_bishop.png");
             } else if (x == 3 && (y == 0 || y == 7)) {
-                // Create a queen
+                // Create a minister
                 pieces[x][y].type = QUEEN;
                 pieces[x][y].color = (y == 0) ? WHITE : BLACK;
-                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "white_queen.png" : "black_queen.png");
+                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ?  "texture/black_minister.png" : "texture/white_minister.png");
             } else if (x == 4 && (y == 0 || y == 7)) {
                 // Create a king
                 pieces[x][y].type = KING;
                 pieces[x][y].color = (y == 0) ? WHITE : BLACK;
-                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "white_king.png" : "black_king.png");
+                pieces[x][y].texture = LoadChessPieceTexture(renderer, (pieces[x][y].color == WHITE) ? "texture/black_king.png" : "texture/white_king.png");
             } else {
                 // Create an empty tile
                 pieces[x][y].type = EMPTY;
@@ -120,7 +121,7 @@ int main(int argc, char* argv[]) {
             if ((x + y) % 2 == 0) {
                 SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
             } else {
-                SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+                SDL_SetRenderDrawColor(renderer, 128, 128, 128, 255);
             }
 
             // Draw the tile
