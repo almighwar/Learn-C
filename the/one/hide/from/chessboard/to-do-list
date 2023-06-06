@@ -1,0 +1,13 @@
+Add interactivity: You can allow the user to select a chess piece and move it to a different tile on the board. You can implement this by detecting mouse clicks and checking which tile was clicked on.
+
+Add animations: You can add animations to make the chess pieces move smoothly across the board. You can do this by using SDL's animation functions to move the chess pieces from one tile to another.
+
+Add sound effects: You can add sound effects to the game to make it more immersive. For example, you can play a sound effect when a piece is captured or when a checkmate occurs.
+
+Add a timer: You can add a timer to the game to limit the amount of time each player has to make their move. You can display the time remaining on the screen and end the game if a player runs out of time.
+
+Add an AI opponent: You can implement an AI opponent using a chess engine library, such as Stockfish or GNU Chess. You can have the AI make its move automatically after the player makes their move.
+
+Add multiplayer: You can allow two players to play against each other over the internet. You can implement this by using a network library, such as SDL_net, to send the moves between the players.
+
+Add a save/load feature: You can allow the user to save the current game state to a file and load it later to continue playing. You can implement this by using file I/O functions to store the game state in a file.
