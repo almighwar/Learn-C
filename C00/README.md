@@ -1,6 +1,6 @@
 In this step you know what you have to do, you can use a simple editor like vim, emacs, nano, micro, notepad, gedit, Featherpad, Subleme Text, or whatever editor you like..
 
-install the compiler "manualy" such as `gcc or Clang`[^1] , borland turbo C/C++, tiny C, Portable C (CPP).
+install the compiler "manualy" such as `gcc or Clang , borland turbo C/C++`[^1], tiny C, Portable C (CPP).
 ofc if you wanna install an editor with compiler there's an IDEs such as Visual C++, DEV-C++, Turbo C, Codeblocks with compiler which is available on linux and windows, or a editor language-supported such as Visual Studio, Subleme Text.
 
 For more information: 
@@ -8,6 +8,6 @@ For more information:
 [C language compilers](https://en.wikipedia.org/wiki/Category:C_(programming_language)_compilers) ---
 [C (programming language)](https://en.wikipedia.org/wiki/C_(programming_language))
 
-I think the most important thing C language is "RAM"
+I think the most important thing in C language is "RAM"
 
-[^1]: i know them but the rest i never use them
+[^1]: i know them but the rest, never use them
