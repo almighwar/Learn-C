@@ -33,8 +33,8 @@
 
 Definition from [Scaler](https://www.scaler.com/topics/c/identifiers-in-c/) :
 
-> Identifiers in C language represent the names of various entities such as arrays, functions, variables, user-defined data types, labels, etc.
-> An identifier is a type of string of alphanumeric characters that always begins with either an alphabetic or underscore character.
+> Identifiers in C language represent the names of various entities such as arrays, functions, variables, user-defined data types, labels, etc.\
+> An identifier is a type of string of alphanumeric characters that always begins with either an alphabetic or underscore character.\
 > There are specific rules to define the identifiers in C, and we can not use the already defined keywords present in the C language as identifiers.
 
 |Characters|Numbers|
