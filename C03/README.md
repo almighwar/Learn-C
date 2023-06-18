@@ -27,7 +27,7 @@ Bitwize operators:
 |operator's|meaning|
 |-|-|
 |&|bitwize AND|
-|![s](https://static.thenounproject.com/png/645164-200.png)|bitwize OR|
+|<img src="https://static.thenounproject.com/png/645164-200.png" width="15px" height="15px">|bitwize OR|
 |^|butwize XOR|
 |~|bitwize Complement|
 |<<|bitwize left shift|
@@ -36,10 +36,12 @@ Bitwize operators:
 **Example:**
 
 **Betwize Left Shift:**
-![left-shift](/assets/leftshift.jpg)
+
+<img src="/assets/leftshift.jpg" width="500px" height="150px">
 
 **Betwize Right Shift:**
-![left-shift](/assets/rightshift.jpg)
+
+<img src="/assets/rightshift.jpg" width="500px" height="150px">
 
 ---
 
