@@ -13,6 +13,8 @@
      - [Text Constants](#text-Constants)
      - [Character Constants](#character-constants)
 
+--- 
+
 ## Elements
 
 ### Keywords
@@ -31,9 +33,9 @@
 
 Definition from [Scaler](https://www.scaler.com/topics/c/identifiers-in-c/) :
 
-- Identifiers in C language represent the names of various entities such as arrays, functions, variables, user-defined data types, labels, etc.
-- An identifier is a type of string of alphanumeric characters that always begins with either an alphabetic or underscore character.
-- There are specific rules to define the identifiers in C, and we can not use the already defined keywords present in the C language as identifiers.
+> Identifiers in C language represent the names of various entities such as arrays, functions, variables, user-defined data types, labels, etc.
+> An identifier is a type of string of alphanumeric characters that always begins with either an alphabetic or underscore character.
+> There are specific rules to define the identifiers in C, and we can not use the already defined keywords present in the C language as identifiers.
 
 |Characters|Numbers|
 |-|-|
@@ -53,7 +55,7 @@ Definition from [Scaler](https://www.scaler.com/topics/c/identifiers-in-c/) :
 |??!|[symbol](#this)|
 |??-|~|
 
-<p id="this">Trigraphs of ??! is ==|==</p>
+<p id="this">Trigraphs of ??! is **|**</p>
 
 ### Text Constants
 
@@ -71,6 +73,7 @@ Definition from [Scaler](https://www.scaler.com/topics/c/identifiers-in-c/) :
 |\xhh|hexadecimal system numbers|\t|8 space horizontale|
 |\v|8 space vertical|||
 
+---
 
 ## Exercise :
 
