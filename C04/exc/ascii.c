@@ -7,7 +7,8 @@ int main(void) {
 
         if(x>10 && x<100)
             printf("|  %d   |   %c   |\n|-------|-------|\n", x, x);
-
+		else if(x==127)
+            printf("|  %d  |   %c    |\n|-------|-------|\n", x, x);
         else if(x>100 && x<255)
             printf("|  %d  |   %c   |\n|-------|-------|\n", x, x);
     }

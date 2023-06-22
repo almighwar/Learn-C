@@ -49,3 +49,4 @@ Bitwize operators:
 
 - Write a program compares the age of user and number 40
 - The program asks the user to enter a number less than 9, and when it doesn't
+- Simple Calculator with if...else
