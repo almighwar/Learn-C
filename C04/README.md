@@ -33,7 +33,7 @@
 4. Simple calculator with switch
 5. Write program with 4 options:
     1. **Start Game** and when use it, it shows that the game has started
-    2. **Option** It has four options , ٍSound, Graphique, Mouse, Control
+    2. **Option** It has four options , ٍSound, Display, Controls
     3. **About Game** It has your information
     4. **Exit Game**
 
