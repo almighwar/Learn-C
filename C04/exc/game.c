@@ -24,14 +24,14 @@ int main(void) {
             
             // Display the game
             puts("\033[1;33m!Important\033[0m : uppercase: Black peices & lowercase: White pieces\n");
-            puts("[░R][ K][░B][ Q][░K][ B][░K][ R]");
+            puts("[░R][ N][░B][ Q][░K][ B][░N][ R]");
             puts("[ P][░P][ P][░P][ P][░P][ P][░P]");
             puts("[░░][  ][░░][  ][░░][  ][░░][  ]");
             puts("[  ][░░][  ][░░][  ][░░][  ][░░]");
             puts("[░░][  ][░░][  ][░░][  ][░░][  ]");
             puts("[  ][░░][  ][░░][  ][░░][  ][░░]");
             puts("[░p][ p][░p][ p][░p][ p][░p][ p]");
-            puts("[ r][░k][ b][░q][ k][░b][ k][░r]");
+            puts("[ r][░n][ b][░q][ k][░b][ n][░r]");
             break;
 
         case '2':
