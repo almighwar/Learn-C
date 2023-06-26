@@ -18,7 +18,7 @@
 
 **while and do...while**
 
-<img src="/assets/whiles.jpg" alt="whileanddowhile" width="200px" height="400px">
+<img src="/assets/whiles.jpg" alt="whileanddowhile" width="300px" height="400px">
 
 **for** 
 <div style="display:flex; flex-direction: column;">
