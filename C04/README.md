@@ -16,6 +16,16 @@
   - `break` come with `case` and it's important, Without it, things go wrong 
   - `default` is semi-like `else`, if the other cases are false, will be implemented
 
+**while and do...while**
+
+<img src="/assets/whiles.jpg" alt="whileanddowhile" width="200px" height="400px">
+
+**for** 
+<div style="display:flex; flex-direction: column;">
+<img  src="/assets/for.jpg" alt="for" width="400px" height="400px">
+<img src="/assets/for-example.jpg" alt="for-example" width="400px" height="400px">
+</div>
+
 ---
 
 ## Errors
