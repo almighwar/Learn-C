@@ -15,12 +15,23 @@
   - `switch` is like `if..else` but sometimes it's better than `if` function 
   - `break` come with `case` and it's important, Without it, things go wrong 
   - `default` is semi-like `else`, if the other cases are false, will be implemented
+  
+- `goto` statement can be useful, It's used to jump from one place to another, or break from complex loops.
+  - put `the_name_of_place:` and to jump to it put `goto the_name_of_place;`
 
-**while and do...while**
+- `for` is become the popular one because it's easy to use, It has 3 arguments other than `while` and `do while` which only have the condition while the others is not within the functions themselves.
+- The three arguments:
+  - initialization; condition; incrementation.
+  
+
+
+### detailed picture: 
+
+**while and do...while:**
 
 <img src="/assets/whiles.jpg" alt="whileanddowhile" width="500px" height="400px">
 
-**for** 
+**for:** 
 <div style="display:flex; flex-direction: column;">
 <img  src="/assets/for.jpg" alt="for" width="400px" height="450px">
 <img src="/assets/for-example.jpg" alt="for-example" width="400px" height="450px">

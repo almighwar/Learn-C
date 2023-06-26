@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 int main(void) {
-    int i = 0;
+    int x;
 
-    printf("Top of top\n");
+    printf("If your number is 8 then you are going to `goto` the end: ");
+    x = (getchar() - '0');
 
 begin:
-    printf("%d", i);
-    i++;
-
-    if (i != 21){
+    printf("%d", x);
+	
+    if (x != 8){
         putchar(',');
         goto begin;
     }
     else
-        goto fin;
+        goto end;
 
-fin:
+end:
     printf("\nThe End\n");
 
     return 0;
