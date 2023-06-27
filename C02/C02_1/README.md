@@ -3,7 +3,7 @@
 ## Func
 
 - putchar and getchar
-- puts
+- puts and [gets](/C05/gets.c)
 - wscanf and wprintf and wmain
 - putch and getch, also getche
 - keyword wchar_t

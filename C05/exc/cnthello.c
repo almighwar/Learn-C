@@ -1,12 +1,19 @@
 #include <stdio.h>
-#define rep 20
 
 int main(void) {
-	char arrhelo[rep] = "Hello, World!";
-	int x;
+	char arrhelo[] = "Hello, World!";
+	int x = 0;
 
-	for(x = 1;arrhelo[x] != '\0'; ++x){
-
+	while(arrhelo[x] = "-1"){
+			
+		x++;
+			if(arrhelo[x] == 48 ){
+				x++;
+			}
+			
+			if(arrhelo[x] == 32){
+				break;	
+			}	
 	}
 
 	printf("%s = %d\n",arrhelo, x);
