@@ -33,13 +33,13 @@
 
 **while and do...while:**
 
-<img style="border: 2px solid #000;" src="/assets/whiles.jpg" alt="whileanddowhile" width="500px" height="400px">
+<img style="border-image-outset:5px;" src="/assets/whiles.jpg" alt="whileanddowhile" width="500px" height="400px">
 
 **for:** 
 
 <div style="display:flex; flex-direction: column;">
-<img style="border: 2px solid #000;" src="/assets/for.jpg" alt="for" width="400px" height="450px">
-<img style="border: 2px solid #000;" src="/assets/for-example.jpg" alt="for-example" width="400px" height="450px">
+<img style=" border-image-outset: 5px;" src="/assets/for.jpg" alt="for" width="400px" height="450px">
+<img style=" border-image-outset: 5px;" src="/assets/for-example.jpg" alt="for-example" width="400px" height="450px">
 </div>
 
 ---
