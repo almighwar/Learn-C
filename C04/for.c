@@ -1,12 +1,27 @@
 #include <stdio.h>
 
 int main(void) {
-    int a;
-
-    for(a = 0; a < 10; a++){
-        printf("%d", a);
+    int a, b;
+	b = 65; // initialization to the second `for`
+	
+    for(a = 0;         a < 10;         a++){
+ //       ^              ^              ^
+ //initialization,   condition,    incrementation       
+        printf("%d ", a);
     }
-    system("zsh");
+
+	puts("");
+	
+    for(;;){
+
+    		if(b>90) // condition
+    			break;
+            
+		printf("%c ", b);
+        b++; // incrementation 
+    }
+
+    puts("");
 
     return 0;
 }

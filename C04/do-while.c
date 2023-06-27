@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    char x = 'q';
+    char x = 'q'; // initialization
 
     do {
         printf("Enter (q) to exit: ");
@@ -11,9 +11,9 @@ int main(void) {
             printf("Success\n");
             break;
         }
-        x++;
+        x++; // incrementation
 
-    } while (x != 'q');
+    } while (x != 'q'); // condition
 
     return 0;
 }
