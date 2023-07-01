@@ -57,7 +57,7 @@ num[5] = 23; // here the error, because size of arr is '2' not '5' or greater
 1. program demand from user to input username with gets and puts function
 2. Write a program, user input the numbers and print it, with array
 3. user input a text and program replace any UPPERCASE character to '*' 
-4. Write `Hello, World!` with array and loop to calcul the symbols and characters without space, don't use x-1
+4. Write program that count `Hello, World!` characters without space and result is `13`, don't use `-1`
 
 > I made a program count only alphabet, so you can do whatever u want with question
 

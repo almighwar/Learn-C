@@ -15,7 +15,7 @@ PointerType *PointerName;
    - only 31 characters
    - doesn't start with numbers
    - don't write operators like plus, minus, dived, multiplied
-   - doesn't have a symbols {@#$%...} except (_)
+   - doesn't have a symbols {@#$%...} except `_`
    - don't use the same pointer name 2 times
    - don't use the keywords as name
 - we don't give a value to pointer directly. 
