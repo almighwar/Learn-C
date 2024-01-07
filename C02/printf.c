@@ -1,6 +1,6 @@
 #include <stdio.h> //Header file
 
-int main() { //main function and () means that it is without the condition or arguments
+int main() { //main function and () and there's no condition or arguments in it
 	
 	/* THe First way */
 	printf("Hello World\n"); //function exist in header file <stdio.h>

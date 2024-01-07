@@ -2,7 +2,7 @@
 
 int main(void) {
 	int x = 4;
-	int x = 8; //False, because declaration of two variables with the same name
+	int x = 8; //False, because declaration of two variables with same name
 	
 	printf("%d %d\n", x, x);
 	return 0;

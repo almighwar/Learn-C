@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int y; //False, it's not possible to decla the var out of the main function
-      // But const u can with #define
+int y; //False, it's not possible to decla the var outside of the main function
+      // #define func do this job
 
 int main(void) {
 	const int x = 7;
