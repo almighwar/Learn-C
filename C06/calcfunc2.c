@@ -3,18 +3,17 @@
 #include <stdio.h>
 
 // calculator functions without print result direcltly
-int calcuTor(int, char, int);
+void calcuTor(int, char, int);
 
 int main(void){
 	int num, num1;
 	char sign = '+';
 	
-	num = 60, num1 = 20;
-	
-	
-	calcuTor(num, '+', num1);
+	num = 60, num1 = 20;	
 	
 	calcuTor(40, sign, 150);
+	
+	calcuTor(num, '+', num1);
 	
 	calcuTor(num, '-', num1);
 	
@@ -25,7 +24,7 @@ int main(void){
 	return 0;
 }
 
-int calcuTor(int x, char symb, int y){
+void calcuTor(int x, char symb, int y){
 	
 	switch(symb){
 		case '+':

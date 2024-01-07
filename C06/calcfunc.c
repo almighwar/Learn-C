@@ -6,11 +6,12 @@ int calMinus(int, int);
 int calMultip(int, int);
 int calDived(int, int);
 
-// Functions print result direcltly
-int printPlus(int, int);
-int printMinus(int, int);
-int printMultip(int, int);
-int printDived(int, int); 
+// Functions to print result direcltly
+// ( void ), is empty, it's without any capacite, and func doesn't have any value to return to it
+void printPlus(int, int);
+void printMinus(int, int);
+void printMultip(int, int);
+void printDived(int, int); 
 
 int main(void){
 	int num, num1, cal;
@@ -77,18 +78,18 @@ int calDived(int x, int y){
 }
 
 // Functions print result direcltly
-int printPlus(int x, int y){
+void printPlus(int x, int y){
 	printf("%d + %d = %d\n", x, y, x+y);
 }
 
-int printMinus(int x, int y){
+void printMinus(int x, int y){
 	printf("%d - %d = %d\n", x, y, x-y);
 }
 
-int printMultip(int x, int y){
+void printMultip(int x, int y){
 	printf("%d * %d = %d\n", x, y, x*y);
 }
 
-int printDived(int x, int y){
+void printDived(int x, int y){
 	printf("%d / %d = %d\n", x, y, x/y);
 }
